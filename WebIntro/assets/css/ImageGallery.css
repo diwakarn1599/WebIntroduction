@@ -1,0 +1,25 @@
+html{
+    background-color: wheat;
+}
+.images
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 20px;
+   
+}
+img{
+    margin: 25px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px yellowgreen;
+    height: 275px;
+    width: 275px;
+}
+header,footer
+{
+    background-color: yellowgreen;
+    
+    text-align: center;
+}
